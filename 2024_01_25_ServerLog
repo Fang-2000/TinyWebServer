@@ -1,0 +1,452 @@
+2024-01-25 11:54:57.524913 [erro]: MySQL Error
+2024-01-25 15:43:18.478991 [info]: timer tick
+2024-01-25 15:43:23.479210 [info]: timer tick
+2024-01-25 15:43:25.117715 [info]: deal with the client(192.168.0.103)
+2024-01-25 15:43:25.117848 [info]: adjust timer once
+2024-01-25 15:43:25.117977 [info]: GET / HTTP/1.1
+2024-01-25 15:43:25.118050 [info]: Host: 192.168.0.102:9006
+2024-01-25 15:43:25.118077 [info]: Connection: keep-alive
+2024-01-25 15:43:25.118098 [info]: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:25.118117 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:25.118139 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:25.118158 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:25.118179 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:25.118198 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:25.118217 [info]: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:25.118237 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:25.118256 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:25.118275 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:25.118294 [info]: 
+2024-01-25 15:43:25.118360 [info]: request:HTTP/1.1 200 OK
+
+2024-01-25 15:43:25.118393 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2024-01-25 15:43:25.118414 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2024-01-25 15:43:25.118433 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2024-01-25 15:43:25.118641 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:25.118708 [info]: adjust timer once
+2024-01-25 15:43:25.364572 [info]: deal with the client(192.168.0.103)
+2024-01-25 15:43:25.364739 [info]: adjust timer once
+2024-01-25 15:43:25.364853 [info]: GET /favicon.ico HTTP/1.1
+2024-01-25 15:43:25.364923 [info]: Host: 192.168.0.102:9006
+2024-01-25 15:43:25.364948 [info]: Connection: keep-alive
+2024-01-25 15:43:25.364970 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:25.364991 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:25.365012 [info]: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2024-01-25 15:43:25.365031 [info]: oop!unknow header: Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2024-01-25 15:43:25.365051 [info]: Referer: http://192.168.0.102:9006/
+2024-01-25 15:43:25.365070 [info]: oop!unknow header: Referer: http://192.168.0.102:9006/
+2024-01-25 15:43:25.365089 [info]: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:25.365108 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:25.365127 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:25.365147 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:25.365165 [info]: 
+2024-01-25 15:43:25.365229 [info]: request:HTTP/1.1 200 OK
+
+2024-01-25 15:43:25.365260 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2024-01-25 15:43:25.365282 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2024-01-25 15:43:25.365301 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2024-01-25 15:43:25.365529 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:25.365592 [info]: adjust timer once
+2024-01-25 15:43:26.876505 [info]: deal with the client(192.168.0.103)
+2024-01-25 15:43:26.876669 [info]: adjust timer once
+2024-01-25 15:43:26.876753 [info]: POST /0 HTTP/1.1
+2024-01-25 15:43:26.876823 [info]: Host: 192.168.0.102:9006
+2024-01-25 15:43:26.876847 [info]: Connection: keep-alive
+2024-01-25 15:43:26.876867 [info]: Content-Length: 0
+2024-01-25 15:43:26.876887 [info]: Cache-Control: max-age=0
+2024-01-25 15:43:26.876906 [info]: oop!unknow header: Cache-Control: max-age=0
+2024-01-25 15:43:26.876925 [info]: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:26.876943 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:26.876962 [info]: Origin: http://192.168.0.102:9006
+2024-01-25 15:43:26.876980 [info]: oop!unknow header: Origin: http://192.168.0.102:9006
+2024-01-25 15:43:26.876998 [info]: Content-Type: application/x-www-form-urlencoded
+2024-01-25 15:43:26.877016 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2024-01-25 15:43:26.877036 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:26.877055 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:26.877075 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:26.877092 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:26.877110 [info]: Referer: http://192.168.0.102:9006/
+2024-01-25 15:43:26.877128 [info]: oop!unknow header: Referer: http://192.168.0.102:9006/
+2024-01-25 15:43:26.877146 [info]: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:26.877163 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:26.877181 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:26.877199 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:26.877217 [info]: 
+2024-01-25 15:43:26.877281 [info]: request:HTTP/1.1 200 OK
+
+2024-01-25 15:43:26.877311 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+
+2024-01-25 15:43:26.877330 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+Connection:keep-alive
+
+2024-01-25 15:43:26.877348 [info]: request:HTTP/1.1 200 OK
+Content-Length:724
+Connection:keep-alive
+
+
+2024-01-25 15:43:26.877545 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:26.877608 [info]: adjust timer once
+2024-01-25 15:43:28.479322 [info]: timer tick
+2024-01-25 15:43:33.479446 [info]: timer tick
+2024-01-25 15:43:38.469025 [info]: deal with the client(192.168.0.103)
+2024-01-25 15:43:38.469153 [info]: adjust timer once
+2024-01-25 15:43:38.469266 [info]: POST /3CGISQL.cgi HTTP/1.1
+2024-01-25 15:43:38.469340 [info]: Host: 192.168.0.102:9006
+2024-01-25 15:43:38.469365 [info]: Connection: keep-alive
+2024-01-25 15:43:38.469384 [info]: Content-Length: 39
+2024-01-25 15:43:38.469404 [info]: Cache-Control: max-age=0
+2024-01-25 15:43:38.469423 [info]: oop!unknow header: Cache-Control: max-age=0
+2024-01-25 15:43:38.469442 [info]: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:38.469460 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:38.469478 [info]: Origin: http://192.168.0.102:9006
+2024-01-25 15:43:38.469495 [info]: oop!unknow header: Origin: http://192.168.0.102:9006
+2024-01-25 15:43:38.469513 [info]: Content-Type: application/x-www-form-urlencoded
+2024-01-25 15:43:38.469531 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2024-01-25 15:43:38.469551 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:38.469569 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:38.469607 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:38.469627 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:38.469645 [info]: Referer: http://192.168.0.102:9006/0
+2024-01-25 15:43:38.469663 [info]: oop!unknow header: Referer: http://192.168.0.102:9006/0
+2024-01-25 15:43:38.469680 [info]: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:38.469698 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:38.469716 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:38.469733 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:38.469751 [info]: 
+2024-01-25 15:43:38.469769 [info]: user=%E8%AE%BF%E9%97%AE&password=123456
+2024-01-25 15:43:38.479550 [info]: timer tick
+2024-01-25 15:43:38.517297 [info]: request:HTTP/1.1 200 OK
+
+2024-01-25 15:43:38.517399 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+
+2024-01-25 15:43:38.517425 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+2024-01-25 15:43:38.517444 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+
+2024-01-25 15:43:38.517688 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:38.517752 [info]: adjust timer once
+2024-01-25 15:43:43.479817 [info]: timer tick
+2024-01-25 15:43:45.157139 [info]: deal with the client(192.168.0.103)
+2024-01-25 15:43:45.157272 [info]: adjust timer once
+2024-01-25 15:43:45.157378 [info]: POST /2CGISQL.cgi HTTP/1.1
+2024-01-25 15:43:45.157449 [info]: Host: 192.168.0.102:9006
+2024-01-25 15:43:45.157472 [info]: Connection: keep-alive
+2024-01-25 15:43:45.157491 [info]: Content-Length: 39
+2024-01-25 15:43:45.157511 [info]: Cache-Control: max-age=0
+2024-01-25 15:43:45.157529 [info]: oop!unknow header: Cache-Control: max-age=0
+2024-01-25 15:43:45.157548 [info]: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:45.157566 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:45.157584 [info]: Origin: http://192.168.0.102:9006
+2024-01-25 15:43:45.157601 [info]: oop!unknow header: Origin: http://192.168.0.102:9006
+2024-01-25 15:43:45.157619 [info]: Content-Type: application/x-www-form-urlencoded
+2024-01-25 15:43:45.157637 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2024-01-25 15:43:45.157656 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:45.157675 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:45.157694 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:45.157712 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:45.157729 [info]: Referer: http://192.168.0.102:9006/3CGISQL.cgi
+2024-01-25 15:43:45.157746 [info]: oop!unknow header: Referer: http://192.168.0.102:9006/3CGISQL.cgi
+2024-01-25 15:43:45.157764 [info]: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:45.157781 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:45.157798 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:45.157816 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:45.157833 [info]: 
+2024-01-25 15:43:45.157851 [info]: user=%E8%AE%BF%E9%97%AE&password=123456
+2024-01-25 15:43:45.157924 [info]: request:HTTP/1.1 200 OK
+
+2024-01-25 15:43:45.157974 [info]: request:HTTP/1.1 200 OK
+Content-Length:723
+
+2024-01-25 15:43:45.157995 [info]: request:HTTP/1.1 200 OK
+Content-Length:723
+Connection:keep-alive
+
+2024-01-25 15:43:45.158013 [info]: request:HTTP/1.1 200 OK
+Content-Length:723
+Connection:keep-alive
+
+
+2024-01-25 15:43:45.158210 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:45.158268 [info]: adjust timer once
+2024-01-25 15:43:46.711453 [info]: deal with the client(192.168.0.103)
+2024-01-25 15:43:46.711574 [info]: adjust timer once
+2024-01-25 15:43:46.711680 [info]: POST /6 HTTP/1.1
+2024-01-25 15:43:46.711752 [info]: Host: 192.168.0.102:9006
+2024-01-25 15:43:46.711777 [info]: Connection: keep-alive
+2024-01-25 15:43:46.711796 [info]: Content-Length: 0
+2024-01-25 15:43:46.711815 [info]: Cache-Control: max-age=0
+2024-01-25 15:43:46.711833 [info]: oop!unknow header: Cache-Control: max-age=0
+2024-01-25 15:43:46.711852 [info]: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:46.711870 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2024-01-25 15:43:46.711887 [info]: Origin: http://192.168.0.102:9006
+2024-01-25 15:43:46.711904 [info]: oop!unknow header: Origin: http://192.168.0.102:9006
+2024-01-25 15:43:46.711923 [info]: Content-Type: application/x-www-form-urlencoded
+2024-01-25 15:43:46.711940 [info]: oop!unknow header: Content-Type: application/x-www-form-urlencoded
+2024-01-25 15:43:46.711959 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:46.711977 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:46.711996 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:46.712014 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-01-25 15:43:46.712031 [info]: Referer: http://192.168.0.102:9006/2CGISQL.cgi
+2024-01-25 15:43:46.712048 [info]: oop!unknow header: Referer: http://192.168.0.102:9006/2CGISQL.cgi
+2024-01-25 15:43:46.712066 [info]: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:46.712083 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2024-01-25 15:43:46.712100 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:46.712118 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:46.712135 [info]: 
+2024-01-25 15:43:46.712197 [info]: request:HTTP/1.1 200 OK
+
+2024-01-25 15:43:46.712228 [info]: request:HTTP/1.1 200 OK
+Content-Length:381
+
+2024-01-25 15:43:46.712247 [info]: request:HTTP/1.1 200 OK
+Content-Length:381
+Connection:keep-alive
+
+2024-01-25 15:43:46.712266 [info]: request:HTTP/1.1 200 OK
+Content-Length:381
+Connection:keep-alive
+
+
+2024-01-25 15:43:46.712412 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:46.712449 [info]: adjust timer once
+2024-01-25 15:43:46.795794 [info]: deal with the client(192.168.0.103)
+2024-01-25 15:43:46.795923 [info]: adjust timer once
+2024-01-25 15:43:46.796043 [info]: GET /xxx.mp4 HTTP/1.1
+2024-01-25 15:43:46.796118 [info]: Host: 192.168.0.102:9006
+2024-01-25 15:43:46.796143 [info]: Connection: keep-alive
+2024-01-25 15:43:46.796163 [info]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:46.796182 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+2024-01-25 15:43:46.796201 [info]: Accept-Encoding: identity;q=1, *;q=0
+2024-01-25 15:43:46.796220 [info]: oop!unknow header: Accept-Encoding: identity;q=1, *;q=0
+2024-01-25 15:43:46.796238 [info]: Accept: */*
+2024-01-25 15:43:46.796256 [info]: oop!unknow header: Accept: */*
+2024-01-25 15:43:46.796294 [info]: Referer: http://192.168.0.102:9006/6
+2024-01-25 15:43:46.796313 [info]: oop!unknow header: Referer: http://192.168.0.102:9006/6
+2024-01-25 15:43:46.796331 [info]: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:46.796349 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-01-25 15:43:46.796368 [info]: Range: bytes=0-
+2024-01-25 15:43:46.796385 [info]: oop!unknow header: Range: bytes=0-
+2024-01-25 15:43:46.796403 [info]: 
+2024-01-25 15:43:46.796466 [info]: request:HTTP/1.1 200 OK
+
+2024-01-25 15:43:46.796497 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+
+2024-01-25 15:43:46.796515 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+Connection:keep-alive
+
+2024-01-25 15:43:46.796533 [info]: request:HTTP/1.1 200 OK
+Content-Length:39667571
+Connection:keep-alive
+
+
+2024-01-25 15:43:46.796850 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:46.796927 [info]: adjust timer once
+2024-01-25 15:43:47.115879 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:47.115990 [info]: adjust timer once
+2024-01-25 15:43:47.239672 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:47.239777 [info]: adjust timer once
+2024-01-25 15:43:47.331682 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:47.331795 [info]: adjust timer once
+2024-01-25 15:43:47.394676 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:47.394784 [info]: adjust timer once
+2024-01-25 15:43:47.454330 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:47.454439 [info]: adjust timer once
+2024-01-25 15:43:47.529973 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:47.530090 [info]: adjust timer once
+2024-01-25 15:43:47.583971 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:47.584080 [info]: adjust timer once
+2024-01-25 15:43:47.707605 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:47.707713 [info]: adjust timer once
+2024-01-25 15:43:47.807585 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:47.807692 [info]: adjust timer once
+2024-01-25 15:43:48.002691 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:48.002771 [info]: adjust timer once
+2024-01-25 15:43:48.122683 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:48.122788 [info]: adjust timer once
+2024-01-25 15:43:48.212247 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:48.212353 [info]: adjust timer once
+2024-01-25 15:43:48.369154 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:48.369270 [info]: adjust timer once
+2024-01-25 15:43:48.479897 [info]: timer tick
+2024-01-25 15:43:48.484135 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:48.484230 [info]: adjust timer once
+2024-01-25 15:43:48.611445 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:48.611545 [info]: adjust timer once
+2024-01-25 15:43:48.709589 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:48.709699 [info]: adjust timer once
+2024-01-25 15:43:48.839226 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:48.839330 [info]: adjust timer once
+2024-01-25 15:43:49.002203 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:49.002312 [info]: adjust timer once
+2024-01-25 15:43:49.140936 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:49.141038 [info]: adjust timer once
+2024-01-25 15:43:49.269152 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:49.269262 [info]: adjust timer once
+2024-01-25 15:43:49.378583 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:49.378684 [info]: adjust timer once
+2024-01-25 15:43:49.561318 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:49.561430 [info]: adjust timer once
+2024-01-25 15:43:49.710280 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:49.710391 [info]: adjust timer once
+2024-01-25 15:43:49.908250 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:49.908375 [info]: adjust timer once
+2024-01-25 15:43:50.012318 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:50.012432 [info]: adjust timer once
+2024-01-25 15:43:50.109300 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:50.109404 [info]: adjust timer once
+2024-01-25 15:43:50.213125 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:50.213230 [info]: adjust timer once
+2024-01-25 15:43:50.401198 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:50.401306 [info]: adjust timer once
+2024-01-25 15:43:50.498333 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:50.498451 [info]: adjust timer once
+2024-01-25 15:43:50.601893 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:50.602018 [info]: adjust timer once
+2024-01-25 15:43:50.762470 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:50.762565 [info]: adjust timer once
+2024-01-25 15:43:50.930888 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:50.930996 [info]: adjust timer once
+2024-01-25 15:43:51.055754 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:51.055817 [info]: adjust timer once
+2024-01-25 15:43:51.199207 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:51.199326 [info]: adjust timer once
+2024-01-25 15:43:51.297149 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:51.297264 [info]: adjust timer once
+2024-01-25 15:43:51.413304 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:51.413392 [info]: adjust timer once
+2024-01-25 15:43:51.547859 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:51.547978 [info]: adjust timer once
+2024-01-25 15:43:51.681147 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:51.681260 [info]: adjust timer once
+2024-01-25 15:43:51.825132 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:51.825237 [info]: adjust timer once
+2024-01-25 15:43:51.943338 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:51.943495 [info]: adjust timer once
+2024-01-25 15:43:52.023937 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:52.024042 [info]: adjust timer once
+2024-01-25 15:43:52.146376 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:52.146485 [info]: adjust timer once
+2024-01-25 15:43:52.277956 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:52.278068 [info]: adjust timer once
+2024-01-25 15:43:52.372768 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:52.372879 [info]: adjust timer once
+2024-01-25 15:43:52.506724 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:52.506831 [info]: adjust timer once
+2024-01-25 15:43:52.638779 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:52.638888 [info]: adjust timer once
+2024-01-25 15:43:52.788883 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:52.788960 [info]: adjust timer once
+2024-01-25 15:43:52.959157 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:52.959272 [info]: adjust timer once
+2024-01-25 15:43:53.124922 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:53.125035 [info]: adjust timer once
+2024-01-25 15:43:53.278590 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:53.278711 [info]: adjust timer once
+2024-01-25 15:43:53.407840 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:53.407948 [info]: adjust timer once
+2024-01-25 15:43:53.480019 [info]: timer tick
+2024-01-25 15:43:53.503778 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:53.503888 [info]: adjust timer once
+2024-01-25 15:43:53.638550 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:53.638656 [info]: adjust timer once
+2024-01-25 15:43:53.742410 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:53.742517 [info]: adjust timer once
+2024-01-25 15:43:53.844427 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:53.844536 [info]: adjust timer once
+2024-01-25 15:43:53.912042 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:53.912176 [info]: adjust timer once
+2024-01-25 15:43:53.974559 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:53.974670 [info]: adjust timer once
+2024-01-25 15:43:54.074443 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:54.074550 [info]: adjust timer once
+2024-01-25 15:43:54.149010 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:54.149115 [info]: adjust timer once
+2024-01-25 15:43:54.318147 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:54.318256 [info]: adjust timer once
+2024-01-25 15:43:54.424026 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:54.424134 [info]: adjust timer once
+2024-01-25 15:43:54.532484 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:54.532589 [info]: adjust timer once
+2024-01-25 15:43:54.669365 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:54.669468 [info]: adjust timer once
+2024-01-25 15:43:54.806811 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:54.806915 [info]: adjust timer once
+2024-01-25 15:43:54.985110 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:54.985208 [info]: adjust timer once
+2024-01-25 15:43:55.145639 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:55.145744 [info]: adjust timer once
+2024-01-25 15:43:55.274691 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:55.274803 [info]: adjust timer once
+2024-01-25 15:43:55.440181 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:55.440304 [info]: adjust timer once
+2024-01-25 15:43:55.601896 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:55.602000 [info]: adjust timer once
+2024-01-25 15:43:55.787978 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:55.788083 [info]: adjust timer once
+2024-01-25 15:43:56.058341 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:56.058448 [info]: adjust timer once
+2024-01-25 15:43:56.223371 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:56.223484 [info]: adjust timer once
+2024-01-25 15:43:56.527159 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:56.527262 [info]: adjust timer once
+2024-01-25 15:43:56.827580 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:56.827682 [info]: adjust timer once
+2024-01-25 15:43:57.072488 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:57.072564 [info]: adjust timer once
+2024-01-25 15:43:57.455889 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:57.455994 [info]: adjust timer once
+2024-01-25 15:43:57.820009 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:57.820119 [info]: adjust timer once
+2024-01-25 15:43:58.289637 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:58.289741 [info]: adjust timer once
+2024-01-25 15:43:58.480201 [info]: timer tick
+2024-01-25 15:43:58.752849 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:58.752958 [info]: adjust timer once
+2024-01-25 15:43:59.176752 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:59.176871 [info]: adjust timer once
+2024-01-25 15:43:59.765931 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:43:59.766032 [info]: adjust timer once
+2024-01-25 15:44:00.725132 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:44:00.725239 [info]: adjust timer once
+2024-01-25 15:44:01.781307 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:44:01.781409 [info]: adjust timer once
+2024-01-25 15:44:02.892901 [info]: send data to the client(192.168.0.103)
+2024-01-25 15:44:02.892996 [info]: adjust timer once
+2024-01-25 15:44:03.331137 [info]: close fd 16
+2024-01-25 15:44:03.480510 [info]: timer tick
+2024-01-25 15:44:08.480959 [info]: timer tick
+2024-01-25 15:44:13.481355 [info]: timer tick
+2024-01-25 15:44:18.481553 [info]: timer tick
+2024-01-25 15:44:23.481745 [info]: timer tick
+2024-01-25 15:44:28.481879 [info]: timer tick
+2024-01-25 15:44:33.482051 [info]: timer tick
+2024-01-25 15:44:38.482176 [info]: timer tick
+2024-01-25 15:44:43.482337 [info]: timer tick

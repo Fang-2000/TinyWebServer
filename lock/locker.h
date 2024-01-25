@@ -8,8 +8,10 @@
 class sem
 {
 public:
+    //构造函数
     sem()
     {
+        //信号量初始化
         if (sem_init(&m_sem, 0, 0) != 0)
         {
             throw std::exception();
@@ -22,8 +24,10 @@ public:
             throw std::exception();
         }
     }
+    //析构函数
     ~sem()
     {
+        //信号量销毁
         sem_destroy(&m_sem);
     }
     bool wait()
@@ -83,6 +87,9 @@ public:
     {
         pthread_cond_destroy(&m_cond);
     }
+    //条件变量的使用机制需要配合锁来使用
+    //内部会有一次加锁和解锁
+    //封装起来会使得更加简洁
     bool wait(pthread_mutex_t *m_mutex)
     {
         int ret = 0;
