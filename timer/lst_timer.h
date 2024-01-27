@@ -24,12 +24,21 @@
 #include <time.h>
 #include "../log/log.h"
 
+
+//连接资源结构体成员需要用到定时器类
+ //需要前向声明
 class util_timer;
 
+//连接资源
 struct client_data
 {
+    //客户端socket地址
     sockaddr_in address;
+
+    //socket文件描述符
     int sockfd;
+
+    //定时器
     util_timer *timer;
 };
 
@@ -39,18 +48,30 @@ public:
     util_timer() : prev(NULL), next(NULL) {}
 
 public:
+
+    //超时函数
     time_t expire;
     
+    //回调函数
     void (* cb_func)(client_data *);
+
+    //连接资源
     client_data *user_data;
+
+    //前向定时器
     util_timer *prev;
+
+    //后端定时器
     util_timer *next;
 };
 
+//定时器容器类
 class sort_timer_lst
 {
 public:
     sort_timer_lst();
+
+    //常规销毁链表
     ~sort_timer_lst();
 
     void add_timer(util_timer *timer);
