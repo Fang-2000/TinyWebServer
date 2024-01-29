@@ -15,6 +15,7 @@ const char *error_500_title = "Internal Error";
 const char *error_500_form = "There was an unusual problem serving the request file.\n";
 
 locker m_lock;
+//用户名和密码
 map<string, string> users;
 
 void http_conn::initmysql_result(connection_pool *connPool)
@@ -460,11 +461,14 @@ http_conn::HTTP_CODE http_conn::do_request()
         //user=123&passwd=123
         char name[100], password[100];
         int i;
+
+        //以&为分隔符，前面的为用户名
         for (i = 5; m_string[i] != '&'; ++i)
             name[i - 5] = m_string[i];
         name[i - 5] = '\0';
 
         int j = 0;
+        //以&为分隔符，后面的是密码
         for (i = i + 10; m_string[i] != '\0'; ++i, ++j)
             password[j] = m_string[i];
         password[j] = '\0';
@@ -481,15 +485,19 @@ http_conn::HTTP_CODE http_conn::do_request()
             strcat(sql_insert, password);
             strcat(sql_insert, "')");
 
+            //判断map中能否找到重复的用户名
             if (users.find(name) == users.end())
             {
+                //向数据库中插入数据时，需要通过锁来同步数据
                 m_lock.lock();
                 int res = mysql_query(mysql, sql_insert);
                 users.insert(pair<string, string>(name, password));
                 m_lock.unlock();
 
+                //校验成功，跳转登录页面
                 if (!res)
                     strcpy(m_url, "/log.html");
+                //校验失败，跳转注册失败页面
                 else
                     strcpy(m_url, "/registerError.html");
             }
@@ -528,6 +536,7 @@ http_conn::HTTP_CODE http_conn::do_request()
 
         free(m_url_real);
     }
+    //图片页面
     else if (*(p + 1) == '5')
     {
         char *m_url_real = (char *)malloc(sizeof(char) * 200);
@@ -536,6 +545,7 @@ http_conn::HTTP_CODE http_conn::do_request()
 
         free(m_url_real);
     }
+    //视频页面
     else if (*(p + 1) == '6')
     {
         char *m_url_real = (char *)malloc(sizeof(char) * 200);
@@ -544,6 +554,7 @@ http_conn::HTTP_CODE http_conn::do_request()
 
         free(m_url_real);
     }
+    //关注页面
     else if (*(p + 1) == '7')
     {
         char *m_url_real = (char *)malloc(sizeof(char) * 200);
