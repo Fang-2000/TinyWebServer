@@ -47,6 +47,7 @@ threadpool<T>::threadpool( int actor_model, connection_pool *connPool, int threa
     for (int i = 0; i < thread_number; ++i)
     {
         //循环创建线程，并将工作线程按要求进行运行
+        //pthread_create第三个参数是线程运行函数的起始地址，第四个参数是运行函数的参数
         if (pthread_create(m_threads + i, NULL, worker, this) != 0)
         {
             delete[] m_threads;
@@ -105,6 +106,8 @@ void *threadpool<T>::worker(void *arg)
     pool->run();
     return pool;
 }
+
+//主要实现，工作线程从请求队列中取出某个任务进行处理，注意线程同步。
 template <typename T>
 void threadpool<T>::run()
 {

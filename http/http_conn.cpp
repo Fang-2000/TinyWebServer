@@ -634,6 +634,7 @@ bool http_conn::write()
 
         //更新已发送字节数
         bytes_to_send -= temp;
+        //申请了2个iov，其中iov[0]为存储报文状态行的缓冲区，iov[1]指向资源文件指针
         //第一个iovec头部信息的数据已发送完，发送第二个iovec数据
         if (bytes_have_send >= m_iv[0].iov_len)
         {

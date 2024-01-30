@@ -175,6 +175,7 @@ void Log::write_log(int level, const char *format, ...)
     else
     {
         m_mutex.lock();
+        //c_str()函数返回一个指向正规C字符串的指针常量, 内容与本string串相同。
         fputs(log_str.c_str(), m_fp);
         m_mutex.unlock();
     }

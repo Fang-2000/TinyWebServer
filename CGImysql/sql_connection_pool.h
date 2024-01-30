@@ -35,6 +35,8 @@ private:
 	int m_FreeConn; //当前空闲的连接数
 	locker lock;
 	list<MYSQL *> connList; //连接池
+
+	//使用信号量实现多线程争夺连接的同步机制
 	sem reserve;
 
 public:
@@ -46,6 +48,7 @@ public:
 	int m_close_log;	//日志开关
 };
 
+//将数据库连接的获取与释放通过RAII机制封装，避免手动释放。
 class connectionRAII{
 
 public:

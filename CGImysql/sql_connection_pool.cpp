@@ -34,6 +34,7 @@ void connection_pool::init(string url, string User, string PassWord, string DBNa
 	m_close_log = close_log;
 
 	//创建MaxConn条数据库连接
+	//默认为8
 	for (int i = 0; i < MaxConn; i++)
 	{
 		MYSQL *con = NULL;
@@ -135,7 +136,7 @@ int connection_pool::GetFreeConn()
 	return this->m_FreeConn;
 }
 
-//销毁连接池没有直接被外部调用，而是通过RAII机制来完成自动释放；使用信号量实现多线程争夺连接的同步机制，这里将信号量初始化为数据库的连接总数。
+//销毁连接池没有直接被外部调用，而是通过RAII机制来完成自动释放；
 connection_pool::~connection_pool()
 {
 	DestroyPool();
